@@ -2,6 +2,7 @@
 
 
 GasLeakApp
+
 GasLeakApp is a mobile application developed using Flutter, designed to detect gas leaks using an MQTT server. The app establishes a connection with the MQTT server, and when a gas leak is detected, it triggers an alert in the form of a popup accompanied by vibration and a distinct sound, ensuring immediate attention to potential hazards.
 
 Features
