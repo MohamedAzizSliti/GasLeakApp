@@ -1,16 +1,14 @@
 # gazfront
 
-A new Flutter project.
 
-## Getting Started
+GasLeakApp
+GasLeakApp is a mobile application developed using Flutter, designed to detect gas leaks using an MQTT server. The app establishes a connection with the MQTT server, and when a gas leak is detected, it triggers an alert in the form of a popup accompanied by vibration and a distinct sound, ensuring immediate attention to potential hazards.
 
-This project is a starting point for a Flutter application.
+Features
+MQTT Integration: The app seamlessly integrates with an MQTT server to monitor and receive real-time data on gas levels.
 
-A few resources to get you started if this is your first Flutter project:
+Gas Leak Detection: GasLeakApp employs sophisticated algorithms to detect gas leaks, providing a timely response to potential safety risks.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Alert System: In case of a gas leak, the app triggers a multi-modal alert system, including a popup notification, vibration, and an audible alert, ensuring that users are promptly informed about the danger.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
